@@ -1,8 +1,8 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import ProjectsCarousel from "@/components/projectsCarousel/ProjectsCarousel";
-import ProjectsScreen from "@/components/ProjectsScreen";
+import ProjectsCarousel from "../../components/projectsCarousel/ProjectsCarousel";
+import ProjectsScreen from "../../components/ProjectsScreen";
 
 const page = () => {
   return (

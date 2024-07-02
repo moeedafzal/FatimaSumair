@@ -1,7 +1,7 @@
-import Navbar from "@/components/global/Navbar";
+import Navbar from "../components/global/Navbar";
 import "./globals.css";
 import Head from "next/head";
-import Footer from "@/components/global/Footer";
+import Footer from "../components/global/Footer";
 
 export const metadata = {
   title: "Fatima Sumair Portfolio",

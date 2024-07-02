@@ -1,12 +1,12 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import TestimonialComponent from "@/components/testimonials/TestimonialComponent";
-import ContactForm from "@/components/contact-form/ContactForm";
-import HomepageFooter from "@/components/homepage_footer/HomepageFooter";
-import ProjectsCarousel from "@/components/projectsCarousel/ProjectsCarousel";
+import TestimonialComponent from "../../components/testimonials/TestimonialComponent";
+import ContactForm from "../../components/contact-form/ContactForm";
+import HomepageFooter from "../../components/homepage_footer/HomepageFooter";
+import ProjectsCarousel from "../../components/projectsCarousel/ProjectsCarousel";
 import { useRef } from "react";
-import ProjectsScreen from "@/components/ProjectsScreen";
+import ProjectsScreen from "../../components/ProjectsScreen";
 
 const Page = () => {
   const formRef = useRef(null);

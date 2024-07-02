@@ -1,6 +1,6 @@
 import React from "react";
-import HomeInfoContent from "@/components/index/HomeInfoContent";
 import Image from "next/image";
+import HomeInfoContent from "../HomeInfoContent";
 
 const ImageContainer = ({ src, alt, noMarginTop, bgColor }) => (
   <div className={`flex ${bgColor} justify-center ${!noMarginTop && "mt-8"}`}>

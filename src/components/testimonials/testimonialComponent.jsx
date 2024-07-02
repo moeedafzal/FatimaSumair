@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useState } from "react";
 import { Carousel } from "antd";
 import Image from "next/image";
 import testimonials from "./testimonial_data";
-import CarouselNavigationButtons from "@/components/CarouselNavigationButtons";
+import CarouselNavigationButtons from "../CarouselNavigationButtons";
 
 const TestimonialComponent = () => {
   const [isMounted, setIsMounted] = useState(false);
