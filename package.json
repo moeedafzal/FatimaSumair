@@ -1,0 +1,55 @@
+{
+  "name": "fatima_portfolio_updated",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write --ignore-unknown '*/**/*.{js,jsx,json,ts,tsx,sh,graphql,css,scss,md}' '*.{js,ts}'"
+  },
+  "author": "FatimaSumair",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,json,ts,tsx,sh,graphql,css,scss,md}": "prettier --write --ignore-unknown"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@next/font": "^14.1.4",
+    "@radix-ui/react-slot": "^1.0.2",
+    "antd": "^5.18.0",
+    "axios": "^1.7.2",
+    "axios-hooks": "^5.0.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "embla-carousel-react": "^8.0.1",
+    "lucide-react": "^0.364.0",
+    "next": "14.1.4",
+    "react": "^18.2.0",
+    "react-dom": "^18",
+    "react-easy-swipe": "^0.0.23",
+    "react-responsive-carousel": "^3.2.23",
+    "react-slick": "^0.30.2",
+    "sharp": "^0.33.4",
+    "slick-carousel": "^1.8.1",
+    "tailwind-merge": "^2.2.2",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.4",
+    "eslint-config-prettier": "^8.5.0",
+    "husky": "^8.0.2",
+    "lint-staged": "^13.0.4",
+    "postcss": "^8",
+    "prettier": "^2.8.0",
+    "tailwindcss": "^3.3.0"
+  }
+}
