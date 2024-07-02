@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import TestimonialComponent from "../../components/testimonials/TestimonialComponent";
+import TestimonialComponent from "../../components/testimonials/testimonialComponent";
 
 function page() {
   return (

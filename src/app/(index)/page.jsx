@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import TestimonialComponent from "../../components/testimonials/TestimonialComponent";
+import TestimonialComponent from "../../components/testimonials/testimonialComponent";
 import ContactForm from "../../components/contact-form/ContactForm";
 import HomepageFooter from "../../components/homepage_footer/HomepageFooter";
 import ProjectsCarousel from "../../components/projectsCarousel/ProjectsCarousel";
