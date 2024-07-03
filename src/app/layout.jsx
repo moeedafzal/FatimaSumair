@@ -4,7 +4,7 @@ import Head from "next/head";
 import Footer from "../components/global/Footer";
 
 export const metadata = {
-  title: "Fatima Sumair Portfolio",
+  title: "Fatima Sumair",
   description: "Fatima Sumair Portfolio",
 };
 
@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
           httpEquiv="Content-Security-Policy"
           content="default-src 'self'"
         />
+        <link rel="shortcut icon" href="/icon.ico" />
       </Head>
       <html lang="en">
         <body className="flex flex-col min-h-screen">

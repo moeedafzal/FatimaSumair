@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="flex justify-center items-center gap-x-4 mx-auto lg:ml-8 2xl:ml-32">
           <Link href="/">
             <Image
-              src="/logo.png"
+              src="/logo.svg"
               alt="Logo"
               width="59"
               height="59"

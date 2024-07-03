@@ -14,15 +14,15 @@ const Navbar = () => {
     <>
       <nav className="navbar w-full shadow-xl flex justify-between px-6 py-4 items-center bg-white">
         <Link href="/">
-          <div className="logo flex items-center gap-x-4">
+          <div className="logo flex items-center gap-x-2 font-playfair">
             <Image
-              src="/logo.png"
+              src="/logo.svg"
               alt="Logo"
               width="50"
               height="50"
               className="bg-transparent border-none border-white"
             />
-            <p className="text-xl">Fatima Sumair</p>
+            <p className="text-3xl">Fatima Sumair</p>
           </div>
         </Link>
 
