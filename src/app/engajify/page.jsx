@@ -1,15 +1,14 @@
 "use client";
 import React from "react";
-import VideoComp from "@/components/global/VideoComp";
-import SideNavbar from "@/components/caseStudies/SideNavbar";
-import TitleCont from "@/components/caseStudies/TitleCont";
-import UsersContentImage from "@/components/caseStudies/UsersContentImage";
-import BulletsEngaj from "@/components/caseStudies/BulletsEngaj";
-import TitleImage from "@/components/caseStudies/TitleImage";
-import ArrowsNextPage from "@/components/caseStudies/ArrowsNextPage";
-
 import Image from "next/image";
-import SingleImage from "@/components/caseStudies/SingleImage";
+import VideoComp from "../../components/global/VideoComp";
+import SideNavbar from "../../components/caseStudies/SideNavbar";
+import TitleCont from "../../components/caseStudies/TitleCont";
+import UsersContentImage from "../../components/caseStudies/UsersContentImage";
+import BulletsEngaj from "../../components/caseStudies/BulletsEngaj";
+import TitleImage from "../../components/caseStudies/TitleImage";
+import ArrowsNextPage from "../../components/caseStudies/ArrowsNextPage";
+import SingleImage from "../../components/caseStudies/SingleImage";
 
 const Page = () => {
   const titles = [
@@ -51,7 +50,7 @@ const Page = () => {
                 "I joined Engajify as a sole product design lead in the company, collaborating closely with product managers, engineers and stakeholders to develop the emerging user generated content startup. Over the course of 8 months,  I designed the web app from the ground up while continuously iterating on the landing page, campaign builder and submissions management system, amongst various other pages.\nGetting more user generated content (UGC) can be a valuable strategy for businesses to enhance their online presence and engage with their audience. However, there are several challenges they might encounter in this endeavor. Aside from the basic competitive research and some qualitative/quantitative data, I conducted interviews with 15 business and marketing professionals.\n From the interview sessions with users, we extracted some constructive human insights. Below are some of the pain points they mentioned."
               }
             />
-            <div className="flex flex-wrap xl:gap-8 xl:flex-row justify-center">
+            <div className="flex flex-wrap xl:gap-8 xl:flex-row ">
               <SingleImage
                 image1={"/engaj1.svg"}
                 c1={
@@ -151,7 +150,7 @@ const Page = () => {
               alt="Design Principles Image"
             />
             <div className="text-center">
-              <h2 className="font-poppins text-2xl md:text-4xl font-bold my-16 bg-[#E9EE8A] p-8">
+              <h2 className="font-poppins text-2xl md:text-4xl font-bold my-16 bg-[#E9EE8A] p-8 max-w-[1400px]">
                 How might we make it easier for businesses to manage, <br />{" "}
                 respond to and curate UGC content?
               </h2>
@@ -192,7 +191,7 @@ const Page = () => {
                 "We conducted design sprints to facilitate collaboration cross-departments. Product Manager, Engineers and Creatives contributed their fresh ideas in this sprint. The purpose of these sprints is to align everyone on the same goal - To improve our consumer experience by solving our user's problems today."
               }
             />
-            <div className="image-mesh grid grid-cols-1 md:grid-cols-2 gap-4 my-24">
+            <div className="image-mesh grid grid-cols-1 md:grid-cols-2 gap-4 my-24 max-w-[1400px] mx-auto">
               <Image
                 src="/engajproc1.svg"
                 width={500}

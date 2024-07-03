@@ -1,7 +1,19 @@
+// tsconfig.json or jsconfig.json
 {
   "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": "src/",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/styles/*": ["styles/*"],
+      "@/components/*": ["components/*"]
     }
   }
 }

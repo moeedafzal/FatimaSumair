@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import "@/app/globals.css";
+import "../../app/globals.css"
 import ButtonText from "../global/ButtonText";
 import Image from "next/image";
 

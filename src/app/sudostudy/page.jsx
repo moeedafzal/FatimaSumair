@@ -1,13 +1,13 @@
 "use client";
-import React from "react";
-import VideoComp from "@/components/global/VideoComp";
-import TitleCont from "@/components/caseStudies/TitleCont";
-import SideNavbar from "@/components/caseStudies/SideNavbar";
-import UsersContentImage from "@/components/caseStudies/UsersContentImage";
+import React from "react";;
 import Image from "next/image";
-import ArrowsNextPage from "@/components/caseStudies/ArrowsNextPage";
-import SingleImage from "@/components/caseStudies/SingleImage";
 import { Divider } from "antd";
+import VideoComp from "../../components/global/VideoComp";
+import TitleCont from "../../components/caseStudies/TitleCont";
+import SideNavbar from "../../components/caseStudies/SideNavbar";
+import UsersContentImage from "../../components/caseStudies/UsersContentImage";
+import ArrowsNextPage from "../../components/caseStudies/ArrowsNextPage";
+import SingleImage from "../../components/caseStudies/SingleImage";
 
 const ImageContainer = ({ src, alt, alignLeft, noMarginTop }) => (
   <div

@@ -1,11 +1,10 @@
 "use client";
 import React from "react";
-import VideoComp from "@/components/global/VideoComp";
-import TitleCont from "@/components/caseStudies/TitleCont";
-import ArrowsNextPage from "@/components/caseStudies/ArrowsNextPage";
-
 import Image from "next/image";
-import SideNavbar from "@/components/caseStudies/SideNavbar";
+import VideoComp from "../../components/global/VideoComp";
+import TitleCont from "../../components/caseStudies/TitleCont";
+import ArrowsNextPage from "../../components/caseStudies/ArrowsNextPage";
+import SideNavbar from "../../components/caseStudies/SideNavbar";
 
 const Page = () => {
   const titles = ["Context", "My Role", "Sneak Peak"];

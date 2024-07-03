@@ -1,13 +1,13 @@
 "use client";
 import React from "react";
-import VideoComp from "@/components/global/VideoComp";
-import TitleCont from "@/components/caseStudies/TitleCont";
-import SideNavbar from "@/components/caseStudies/SideNavbar";
-import UsersContentImage from "@/components/caseStudies/UsersContentImage";
+import VideoComp from "../../components/global/VideoComp";
+import TitleCont from "../../components/caseStudies/TitleCont";
+import SideNavbar from "../../components/caseStudies/SideNavbar";
+import UsersContentImage from "../../components/caseStudies/UsersContentImage";
 import Image from "next/image";
-import ArrowsNextPage from "@/components/caseStudies/ArrowsNextPage";
-import StickyNote from "@/components/caseStudies/StickyNote";
-import HafazatSolutions from "@/components/caseStudies/HafazatSolutions";
+import ArrowsNextPage from "../../components/caseStudies/ArrowsNextPage";
+import StickyNote from "../../components/caseStudies/StickyNote";
+import HafazatSolutions from "../../components/caseStudies/HafazatSolutions";
 
 const ImageContainer = ({ src, alt, alignLeft, noMarginTop }) => (
   <div

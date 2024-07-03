@@ -1,14 +1,14 @@
 "use client";
 import React from "react";
-import VideoComp from "@/components/global/VideoComp";
-import TitleCont from "@/components/caseStudies/TitleCont";
-import SideNavbar from "@/components/caseStudies/SideNavbar";
-import ThreeImageHorizontal from "@/components/caseStudies/ThreeImageHorizontal";
-import UsersContentImage from "@/components/caseStudies/UsersContentImage";
 import Image from "next/image";
-import ArrowsNextPage from "@/components/caseStudies/ArrowsNextPage";
-import UnationCarousel from "@/components/unationCarousel/UnationCarousel";
 import { Divider } from "antd";
+import VideoComp from "../../components/global/VideoComp";
+import TitleCont from "../../components/caseStudies/TitleCont";
+import SideNavbar from "../../components/caseStudies/SideNavbar";
+import ThreeImageHorizontal from "../../components/caseStudies/ThreeImageHorizontal";
+import UsersContentImage from "../../components/caseStudies/UsersContentImage";
+import ArrowsNextPage from "../../components/caseStudies/ArrowsNextPage";
+import UnationCarousel from "../../components/unationCarousel/UnationCarousel";
 
 const ImageContainer = ({ src, alt, alignLeft, noMarginTop }) => (
   <div
