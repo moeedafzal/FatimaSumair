@@ -19,8 +19,8 @@ const Page = () => {
             <Image
               width={1000}
               height={1000}
-              src="/assets/home/landing_page_fatima.svg"
-              alt="header-image"
+              src="/assets/home/landing_page_Fatima.svg"
+              alt="Fatima Sumair Landing Header Image"
             />
           </div>
           <div className="w-full lg:w-1/2 mb-16 lg:mb-0 text-white order-first lg:order-last">
