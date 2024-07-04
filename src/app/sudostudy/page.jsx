@@ -47,7 +47,7 @@ const Page = () => {
           <SideNavbar titles={titles} />
         </div>
         <div className="md:w-5/6 w-full items-center text-left mx-7 md:mx-12">
-          <section className="text-left mt-8 md:mt-24 items-center">
+          <section className="text-left mt-24 items-center">
             <div className="flex justify-left mb-20">
               <p className="font-poppins font-semibold  text-[32px] md:text-[50px] overflow-clip break-words">
                 Transforming the Quiz-taking Experience of Teachers and Students
@@ -294,9 +294,10 @@ const Page = () => {
                   height={10000}
                 />
                 <video
-                  className=" absolute top-5 left-[50%] transform -translate-x-1/2 w-full h-full"
+                  className="absolute top-2 sm:top-3 lg:top-4 left-[50%] transform -translate-x-1/2 w-full h-full"
                   controls
                   autoPlay
+                  playsInline
                   style={{ maxWidth: "75%", maxHeight: "80%" }}
                 >
                   <source src="/videos/SudoStudy.mp4" type="video/mp4" />
@@ -357,7 +358,9 @@ const Page = () => {
             />
 
             <ImageContainer
-              src={"/images/work/sudostudy/page_content/final_designs/quizzes_page.png"}
+              src={
+                "/images/work/sudostudy/page_content/final_designs/quizzes_page.png"
+              }
               alt={"Quizzes details page of SudoStudy"}
             />
 

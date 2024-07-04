@@ -49,13 +49,18 @@ const Page = () => {
   ];
   return (
     <>
-      <VideoComp bgColor={"ECE2D7"} imagePath={"/images/work/unation/header.png"} alt="Unation header image" />
+      <VideoComp
+        bgColor={"ECE2D7"}
+        imagePath={"/images/work/unation/header.png"}
+        alt="Unation header image"
+      />
 
       <div className="flex flex-row justify-center">
         <div className="hidden xl:block xl:w-1/6 mt-[21.3rem]">
           <SideNavbar titles={titles} />
         </div>
-        <div className="md:w-5/6 w-full items-center text-left mx-7 md:mx-12">
+        {/* Applying padding before and then replacing it with margin because the antd Carousel causes issues otherwise */}
+        <div className="md:w-5/6 w-full items-center text-left px-7 md:mx-12 md:px-0">
           <section className="text-left mt-24 items-center">
             <div className="flex justify-left mb-20">
               <p className="font-poppins font-semibold  text-[32px] md:text-[50px] overflow-clip break-words">
@@ -179,7 +184,9 @@ const Page = () => {
 
             <div className="flex justify-center my-8">
               <Image
-                src={"/images/work/unation/page_content/stratagyzer_value_proposition_canvas.png"}
+                src={
+                  "/images/work/unation/page_content/stratagyzer_value_proposition_canvas.png"
+                }
                 width={720}
                 height={300}
                 alt="Stratagyzer’s Value Proposition Canvas"
@@ -207,25 +214,33 @@ const Page = () => {
 
             <TitleWithImage
               title={"Home Page"}
-              src={"/images/work/unation/page_content/final_designs/home_page.png"}
+              src={
+                "/images/work/unation/page_content/final_designs/home_page.png"
+              }
               alt={"Home page screen of Unation app"}
             />
 
             <TitleWithImage
               title={"City Guides"}
-              src={"/images/work/unation/page_content/final_designs/city_guides.png"}
+              src={
+                "/images/work/unation/page_content/final_designs/city_guides.png"
+              }
               alt={"City guides screen of Unation app"}
             />
 
             <TitleWithImage
               title={"Discover Screen"}
-              src={"/images/work/unation/page_content/final_designs/discover_screen.png"}
+              src={
+                "/images/work/unation/page_content/final_designs/discover_screen.png"
+              }
               alt={"Discover screen of Unation app"}
             />
 
             <TitleWithImage
               title={"Event Creation"}
-              src={"/images/work/unation/page_content/final_designs/create_event.png"}
+              src={
+                "/images/work/unation/page_content/final_designs/create_event.png"
+              }
               alt={"Create event screen of Unation app"}
             />
 
