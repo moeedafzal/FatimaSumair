@@ -10,7 +10,11 @@ const Page = () => {
   const titles = ["Context", "My Role", "Sneak Peak"];
   return (
     <>
-      <VideoComp imagePath={"/images/work/metastaq/header.png"} bgColor={"E9EE8A"} alt="Metatasq header image" />
+      <VideoComp
+        imagePath={"/images/work/metastaq/header.png"}
+        bgColor={"E9EE8A"}
+        alt="Metatasq header image"
+      />
 
       <div className="flex flex-row justify-center">
         <div className="hidden xl:block  xl:w-1/6 mt-[21.3rem]">
@@ -51,8 +55,9 @@ const Page = () => {
               width="10000"
               height="10000"
               controls
+              autoPlay
             >
-              <source src="/videos/metastaq.mp4" type="video/mp4" />
+              <source src="/videos/Metastaq.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
 
