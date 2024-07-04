@@ -73,7 +73,13 @@ const Page = () => {
           <div className="text-center my-12 lg:text-left lg:mb-0">
             <p className="text-xl md:text-2xl font-normal text-[#2121218A] mt-5">
               Email me at <br />
-              <span className="font-semibold text-xl text-black ">
+              <span
+                className="font-semibold text-xl text-black cursor-pointer hover:text-[#2121218A]"
+                onClick={() => {
+                  window.location.href =
+                    "mailto:contact@fatimasumair.com?subject=Design Query&body=Hi, I would like to enquire about a design project.";
+                }}
+              >
                 contact@fatimasumair.com
               </span>
             </p>
