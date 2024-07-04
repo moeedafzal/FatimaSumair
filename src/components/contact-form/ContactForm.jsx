@@ -1,7 +1,7 @@
 "use client";
 import useAxios from "axios-hooks";
 import React from "react";
-import { Form, Input, notification } from "antd";
+import { Form, Input, message } from "antd";
 import ButtonText from "../global/ButtonText";
 
 function ContactForm() {
@@ -21,12 +21,14 @@ function ContactForm() {
         data: values,
       });
       form.resetFields();
+      message.success({
+        type: "success",
+        content: "Thank you for reaching out! I will get back to you soon.",
+      });
     } catch {
-      notification.error({
-        key: "formSubmissionError",
-        message: "Error saving data",
-        description:
-          "There was an error saving your data. Please try again later.",
+      message.error({
+        type: "error",
+        content: "Oops! Looks like there was an error. Please try again later.",
       });
     }
   };
