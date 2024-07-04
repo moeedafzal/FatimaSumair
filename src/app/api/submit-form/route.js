@@ -1,8 +1,7 @@
 import axios from "axios";
 
 // Pre-filled Google form link:
-// https://docs.google.com/forms/d/e/1FAIpQLSc5XY--oxsEUm12gKYabDdk_4K9yrViI0Pw3BocdpCoZEQYVg/formResponse?entry.994405034=Moeed+2nd+Try&entry.1012298677=moeedafzal97@gmail.com&entry.900772407=Test+roject+type&entry.2145485130=Lahore,+Pakistan&entry.1878999967=https://www.moeedafzal.com&entry.270061993=These+are+my+test+project+details
-// https://docs.google.com/forms/d/e/1FAIpQLSezknIBfpjdXHkFvdc3Ka-RczKZceu8jMTmu5Wj0FCbhZ3LTA/formResponse?&entry.1013712450=Moeed+Afzal&entry.1703144591=moeedafzal@gmail.com&entry.205279702=Test+Project+Type&entry.701942885=Lahore,+Pakistan&entry.506102470=https://www.moeedafzal.com&entry.1951510718=These+are+my+test+project+details
+// https://docs.google.com/forms/d/e/1FAIpQLScmX6NTl2fMfxMuDuc8DLu1H3YQwGht2KTdJDgnzzesMgng_Q/formResponse?entry.303881909=Moeed+Afzal&entry.1466600208=moeed@email.com&entry.437323979=Dev+Test+Project&entry.447486164=Lahore,+Pakistan&entry.1573360330=www.moeed.com&entry.890497725=These+are+some+test+project+deatils
 
 export async function POST(request) {
   try {
@@ -16,15 +15,16 @@ export async function POST(request) {
     } = await request.json();
 
     const formData = new FormData();
-    formData.append("entry.1013712450", name);
-    formData.append("entry.1703144591", email);
-    formData.append("entry.205279702", projectType);
-    formData.append("entry.701942885", location);
-    formData.append("entry.506102470", website);
-    formData.append("entry.1951510718", projectDetails);
+
+    formData.append("entry.303881909", name);
+    formData.append("entry.1466600208", email);
+    formData.append("entry.437323979", projectType);
+    formData.append("entry.447486164", location);
+    formData.append("entry.1573360330", website);
+    formData.append("entry.890497725", projectDetails);
 
     const response = await axios.post(
-      "https://docs.google.com/forms/d/e/1FAIpQLSezknIBfpjdXHkFvdc3Ka-RczKZceu8jMTmu5Wj0FCbhZ3LTA/formResponse",
+      "https://docs.google.com/forms/d/e/1FAIpQLScmX6NTl2fMfxMuDuc8DLu1H3YQwGht2KTdJDgnzzesMgng_Q/formResponse",
       formData,
       {
         headers: {

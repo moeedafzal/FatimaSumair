@@ -74,7 +74,7 @@ const Page = () => {
             <p className="text-xl md:text-2xl font-normal text-[#2121218A] mt-5">
               Email me at <br />
               <span className="font-semibold text-xl text-black ">
-                fatimasumair@outlook.com
+                contact@fatimasumair.com
               </span>
             </p>
           </div>

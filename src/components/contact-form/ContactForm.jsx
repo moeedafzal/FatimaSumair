@@ -24,11 +24,13 @@ function ContactForm() {
       message.success({
         type: "success",
         content: "Thank you for reaching out! I will get back to you soon.",
+        style: { fontSize: "16px" },
       });
     } catch {
       message.error({
         type: "error",
-        content: "Oops! Looks like there was an error. Please try again later.",
+        content: "Oops! Looks like there was an error. Please try again.",
+        style: { fontSize: "16px" },
       });
     }
   };
