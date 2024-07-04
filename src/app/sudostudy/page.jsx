@@ -357,7 +357,7 @@ const Page = () => {
             />
 
             <ImageContainer
-              src={"/images/work/sudostudy/final_designs/quizzes_page.png"}
+              src={"/images/work/sudostudy/page_content/final_designs/quizzes_page.png"}
               alt={"Quizzes details page of SudoStudy"}
             />
 

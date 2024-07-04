@@ -333,7 +333,7 @@ const Page = () => {
                 "Designing a women's safety application for women in Pakistan yielded several outcomes and learnings. \nDesigning for women in Pakistan highlighted the significance of localized solutions. Considering factors such as language preferences, cultural norms, and infrastructure limitations was crucial in making the application accessible and impactful. \nEngaging with local communities, women's organizations, and stakeholders played a vital role in the design process. Collaborating with these groups helped gather valuable insights, build trust, and ensure the application aligned with the needs and preferences of its intended users. \nOverall, designing a women's safety application for women in Pakistan resulted in valuable insights, emphasizing the importance of cultural sensitivity, user engagement, and technology adaptation in addressing complex societal challenges."
               }
             />
-            <ArrowsNextPage backPage={"/sudostudy"} frontPage={"/engajify"} />
+            <ArrowsNextPage backPage={"/metastaq"} frontPage={"/engajify"} />
           </section>
         </div>
       </div>
