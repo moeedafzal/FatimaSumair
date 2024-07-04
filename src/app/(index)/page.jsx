@@ -77,7 +77,7 @@ const Page = () => {
                 className="font-semibold text-xl text-black cursor-pointer hover:text-[#2121218A]"
                 onClick={() => {
                   window.location.href =
-                    "mailto:contact@fatimasumair.com?subject=Design Query&body=Hi, I would like to enquire about a design project.";
+                    "mailto:contact@fatimasumair.com?subject=Design%20Query&body=Hi,%20I%20would%20like%20to%20enquire%20about%20a%20design%20project.";
                 }}
               >
                 contact@fatimasumair.com
