@@ -75,8 +75,8 @@ const TestimonialComponent = () => {
             >
               <div className="">
                 <Image
-                  src="/assets/testimonials/marks.svg"
-                  alt="marks"
+                  src="/images/testimonials/quotation_marks.svg"
+                  alt="Quotation marks"
                   width={100}
                   height={100}
                   className="mb-8 w-16 "

@@ -17,8 +17,8 @@ const ProjectsScreen = () => (
       <div className="flex-1 lg:w-1/2 ">
         <ImageContainer
           className="flex-1"
-          src="/assets/home/engajify.svg"
-          alt="Engajify Image"
+          src="/images/work/engajify/display_screen.png"
+          alt="Engajify display screen image"
           noMarginTop
           bgColor={"bg-[#E9EE8A]"}
         />
@@ -40,8 +40,8 @@ const ProjectsScreen = () => (
       <div className="flex-1 lg:w-1/2 ">
         <ImageContainer
           className="flex-1 order-last"
-          src="/assets/home/sudostudy.svg"
-          alt="SudoStudy Image"
+          src="/images/work/sudostudy/display_screen.png"
+          alt="SudoStudy display screen image"
           noMarginTop
           bgColor={"bg-[#DDBDBD]"}
         />
@@ -63,8 +63,8 @@ const ProjectsScreen = () => (
       <div className="flex-1 lg:w-1/2 ">
         <ImageContainer
           className="flex-1"
-          src="/assets/home/unation.svg"
-          alt="Unation Image"
+          src="/images/work/unation/display_screen.png"
+          alt="Unation display screen image"
           noMarginTop
           bgColor={"bg-[#ECE2D7]"}
         />
@@ -86,8 +86,8 @@ const ProjectsScreen = () => (
       <div className="flex-1 lg:w-1/2 ">
         <ImageContainer
           className="flex-1 order-last"
-          src="/assets/home/metastaq.svg"
-          alt="Metastaq Image"
+          src="/images/work/metastaq/display_screen.png"
+          alt="Metastaq display screen image"
           noMarginTop
           alignLeft
           bgColor={"bg-[#E9EE8A]"}
@@ -111,8 +111,8 @@ const ProjectsScreen = () => (
       <div className="flex-1 lg:w-1/2 ">
         <ImageContainer
           className="flex-1"
-          src="/assets/home/hafazat.svg"
-          alt="Hafazat Image"
+          src="/images/work/hafazat/display_screen.png"
+          alt="Hafazat display screen image"
           noMarginTop
           bgColor={"bg-[#DDBDBD]"}
         />

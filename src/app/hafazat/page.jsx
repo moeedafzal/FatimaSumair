@@ -35,7 +35,11 @@ const Page = () => {
 
   return (
     <>
-      <VideoComp bgColor={"DDBDBD"} imagePath={"/hafazat_header.png"} />
+      <VideoComp
+        bgColor={"DDBDBD"}
+        imagePath={"/images/work/hafazat/header.png"}
+        alt="Hafazat header image"
+      />
 
       <div className="flex flex-row justify-center">
         <div className="hidden xl:block xl:w-1/6 mt-[21.3rem]">
@@ -98,7 +102,12 @@ const Page = () => {
               </ul>
             </div>
 
-            <ImageContainer src={"/hafazatJustice.svg"} alt="hafazat image" />
+            <ImageContainer
+              src={
+                "/images/work/hafazat/page_content/girls_holding_banners.png"
+              }
+              alt="Image of two girls holding up banners"
+            />
 
             <TitleCont
               title={"Research"}
@@ -109,36 +118,21 @@ const Page = () => {
 
             <div className="w-fit">
               <div className="flex flex-wrap justify-center gap-7 mt-5">
-                <Image
-                  src={"/hafazat_sticky_1.svg"}
-                  alt={"hafazat image"}
-                  width={155}
-                  height={176}
-                />
-                <Image
-                  src={"/hafazat_sticky_2.svg"}
-                  alt={"hafazat image"}
-                  width={155}
-                  height={176}
-                />
-                <Image
-                  src={"/hafazat_sticky_3.svg"}
-                  alt={"hafazat image"}
-                  width={155}
-                  height={176}
-                />
-                <Image
-                  src={"/hafazat_sticky_4.svg"}
-                  alt={"hafazat image"}
-                  width={155}
-                  height={176}
-                />
-                <Image
-                  src={"/hafazat_sticky_5.svg"}
-                  alt={"hafazat image"}
-                  width={155}
-                  height={176}
-                />
+                {[
+                  "/images/work/hafazat/page_content/sticky_1.svg",
+                  "/images/work/hafazat/page_content/sticky_2.svg",
+                  "/images/work/hafazat/page_content/sticky_3.svg",
+                  "/images/work/hafazat/page_content/sticky_4.svg",
+                  "/images/work/hafazat/page_content/sticky_5.svg",
+                ].map((src, index) => (
+                  <Image
+                    key={index}
+                    src={src}
+                    alt={"Sticky stating issues faced by women"}
+                    width={155}
+                    height={176}
+                  />
+                ))}
               </div>
             </div>
 
@@ -151,7 +145,7 @@ const Page = () => {
 
             <UsersContentImage
               bullet={false}
-              image1={"/hafazatUser1.svg"}
+              image1={"/images/work/hafazat/page_content/university_student.svg"}
               t1={"Sukaina, the University Student"}
               c1={
                 "Sadia is a 20-year-old university student living in Lahore, Pakistan. She commutes daily to her university, which is located in a busy part of the city."
@@ -164,10 +158,11 @@ const Page = () => {
               c3={
                 "Sadia seeks a women's safety app that offers features such as real-time location tracking, emergency SOS alerts, and access to helplines or nearby safe zones. She also values a user-friendly interface that is easy to navigate, especially during stressful situations."
               }
+              alt="Picture of a female university student"
             />
             <UsersContentImage
               bullet={false}
-              image1={"/hafazatUser2.svg"}
+              image1={"/images/work/hafazat/page_content/working_professional.svg"}
               t1={"Ayesha, the Working Professional"}
               c1={
                 "Ayesha is a 32-year-old working professional residing in Karachi, Pakistan. She works long hours and often travels for meetings and conferences across the city."
@@ -180,10 +175,11 @@ const Page = () => {
               c3={
                 "Ayesha is looking for a women's safety app that offers features such as geofencing, where she can set safe zones and receive notifications when she enters or leaves those areas. She also desires a panic button feature that can be easily accessed from her smartphone's lock screen for quick response in emergencies."
               }
+              alt="Picture of a female working professional"
             />
             <UsersContentImage
               bullet={false}
-              image1={"/hafazatUser3.svg"}
+              image1={"/images/work/hafazat/page_content/homemaker.svg"}
               t1={"Nadia, the Homemaker"}
               c1={
                 "Nadia is a 45-year-old homemaker living in Islamabad, Pakistan. She often accompanies her children to school, runs household errands, and attends community events."
@@ -196,6 +192,7 @@ const Page = () => {
               c3={
                 "Nadia is interested in a women's safety app that offers features such as community-based reporting, where users can share safety tips and incidents in their locality. She also values a feature that allows her to create a trusted network of neighbors and friends who can assist each other in times of need. Additionally, she desires access to informative resources on self-defense techniques and legal rights for women."
               }
+              alt="Picture of a female homemaker"
             />
 
             <TitleCont
@@ -251,81 +248,81 @@ const Page = () => {
               </div>
             </div>
 
-            <ImageContainer src={"/hafazatSketch.svg"} alt="sketch" />
+            <ImageContainer src={"/images/work/hafazat/page_content/wireframes.png"} alt="Wireframes for the Hafzat mobile app" />
 
             <TitleCont title={"Prototypes"} content={""} />
 
             <section>
               <div className="grid grid-cols-3">
                 <Image
-                  src={"hafazatPhones/phn1.svg"}
+                  src={"/images/work/hafazat/page_content/prototypes/phone_1.svg"}
                   width={1000}
                   height={1000}
-                  alt="Hafazat Prototypes"
+                  alt="Hafazat prototype 1"
                 />
                 <Image
-                  src={"hafazatPhones/phn2.svg"}
+                  src={"/images/work/hafazat/page_content/prototypes/phone_2.svg"}
                   width={1000}
                   height={1000}
-                  alt="Hafazat Prototypes"
+                  alt="Hafazat prototype 2"
                 />
                 <Image
-                  src={"hafazatPhones/phn3.svg"}
+                  src={"/images/work/hafazat/page_content/prototypes/phone_3.svg"}
                   width={1000}
                   height={1000}
-                  alt="Hafazat Prototypes"
+                  alt="Hafazat prototype 3"
                 />
                 <Image
-                  src={"hafazatPhones/phn4.svg"}
+                  src={"/images/work/hafazat/page_content/prototypes/phone_4.svg"}
                   width={1000}
                   height={1000}
-                  alt="Hafazat Prototypes"
+                  alt="Hafazat prototype 4"
                 />
                 <Image
-                  src={"hafazatPhones/phn5.svg"}
+                  src={"/images/work/hafazat/page_content/prototypes/phone_5.svg"}
                   width={1000}
                   height={1000}
-                  alt="Hafazat Prototypes"
+                  alt="Hafazat prototype 5"
                 />
                 <Image
-                  src={"hafazatPhones/phn6.svg"}
+                  src={"/images/work/hafazat/page_content/prototypes/phone_6.svg"}
                   width={1000}
                   height={1000}
-                  alt="Hafazat Prototypes"
+                  alt="Hafazat prototype 6"
                 />
               </div>
               <div className="grid grid-cols-2">
                 <Image
-                  src={"hafazatPhones/phn7.svg"}
+                  src={"/images/work/hafazat/page_content/prototypes/phone_7.svg"}
                   width={1000}
                   height={1000}
-                  alt="Hafazat Prototypes"
+                  alt="Hafazat prototype 7"
                 />
                 <Image
-                  src={"hafazatPhones/phn8.svg"}
+                  src={"/images/work/hafazat/page_content/prototypes/phone_8.svg"}
                   width={1000}
                   height={1000}
-                  alt="Hafazat Prototypes"
+                  alt="Hafazat prototype 8"
                 />
               </div>
               <div>
                 <div className="hidden lg:block">
                   <div className="flex justify-center align-middle items-center">
                     <Image
-                      src={"hafazatPhones/phn9.svg"}
+                      src={"/images/work/hafazat/page_content/prototypes/phone_9.svg"}
                       width={300}
                       height={642}
-                      alt="Hafazat Prototypes"
+                      alt="Hafazat prototype 9"
                     />
                   </div>
                 </div>
               </div>
               <div className="flex justify-center align-middle items-center">
                 <Image
-                  src={"hafazatPhones/phn10.svg"}
+                  src={"/images/work/hafazat/page_content/prototypes/phone_10.svg"}
                   width={1000}
                   height={1000}
-                  alt="Hafazat Prototypes"
+                  alt="Hafazat prototype 10"
                 />
               </div>
             </section>

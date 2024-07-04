@@ -8,8 +8,8 @@ const Footer = () => {
         <div className="flex justify-center items-center gap-x-4 mx-auto lg:ml-8 2xl:ml-32">
           <Link href="/">
             <Image
-              src="/logo.svg"
-              alt="Logo"
+              src="/images/utils/logo.svg"
+              alt="Fatima Sumair logo"
               width="59"
               height="59"
               style={{ aspectRatio: "59 / 59" }}
@@ -38,8 +38,8 @@ const Footer = () => {
             >
               <Image
                 className="w-10 cursor-pointer"
-                src="/assets/home/linkedin_logo.png"
-                alt="linkedin"
+                src="/images/utils/linkedin_logo.svg"
+                alt="Linkedin logo"
                 width={100}
                 height={100}
               />
@@ -49,8 +49,8 @@ const Footer = () => {
             <Link target="_blank" href="https://www.behance.net/fatimasumair">
               <Image
                 className="w-10 cursor-pointer"
-                src="/assets/home/logo2.png"
-                alt="logo2"
+                src="/images/utils/behance_logo.svg"
+                alt="Behance logo"
                 width={100}
                 height={100}
               />
@@ -60,8 +60,8 @@ const Footer = () => {
             <Link target="_blank" href="https://medium.com/@fatimasumair">
               <Image
                 className="w-10 cursor-pointer"
-                src="/assets/home/logo3.png"
-                alt="logo3"
+                src="/images/utils/medium_logo.svg"
+                alt="Medium logo"
                 width={100}
                 height={100}
               />

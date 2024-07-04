@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
           httpEquiv="Content-Security-Policy"
           content="default-src 'self'"
         />
+        {/* This icon should stay in the app directory. Not sure why but this is the only way Next v14 supports it currently */}
         <link rel="shortcut icon" href="/icon.ico" />
       </Head>
       <html lang="en">

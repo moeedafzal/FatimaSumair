@@ -10,7 +10,7 @@ const Page = () => {
   const titles = ["Context", "My Role", "Sneak Peak"];
   return (
     <>
-      <VideoComp imagePath={"/metastaq_header.png"} bgColor={"E9EE8A"} />
+      <VideoComp imagePath={"/images/work/metastaq/header.png"} bgColor={"E9EE8A"} alt="Metatasq header image" />
 
       <div className="flex flex-row justify-center">
         <div className="hidden xl:block  xl:w-1/6 mt-[21.3rem]">
@@ -52,14 +52,14 @@ const Page = () => {
               height="10000"
               controls
             >
-              <source src="/videos/Metastaq.mp4" type="video/mp4" />
+              <source src="/videos/metastaq.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
 
             <div className="max-w-[2400px]">
               <Image
-                src="/meta1.svg"
-                alt="Image 1"
+                src="/images/work/metastaq/page_content/drop_pages.png"
+                alt="Drop page of a campaign in Metatasq"
                 width={10000}
                 height={10000}
               />
@@ -67,8 +67,8 @@ const Page = () => {
 
             <div className="max-w-[2400px]">
               <Image
-                src="/meta2.svg"
-                alt="Image 2"
+                src="/images/work/metastaq/page_content/start_campaign_page.png"
+                alt="Start campaign page in Metatasq"
                 width={10000}
                 height={10000}
               />
@@ -76,8 +76,8 @@ const Page = () => {
 
             <div className="max-w-[2400px]">
               <Image
-                src="/meta3.svg"
-                alt="Image 3"
+                src="/images/work/metastaq/page_content/nft_campaigns.png"
+                alt="NFT campaign page in Metatasq"
                 width={10000}
                 height={10000}
               />
@@ -85,8 +85,8 @@ const Page = () => {
 
             <div className="max-w-[2400px]">
               <Image
-                src="/meta4.svg"
-                alt="Image 4"
+                src="/images/work/metastaq/page_content/landing_page.png"
+                alt="Landing page of a campaign in Metatasq"
                 width={10000}
                 height={10000}
               />
@@ -94,8 +94,8 @@ const Page = () => {
 
             <div className="max-w-[2400px]">
               <Image
-                src="/meta5.svg"
-                alt="Image 5"
+                src="/images/work/metastaq/page_content/customize_landing_page.png"
+                alt="Landing page customization in Metatasq"
                 width={10000}
                 height={10000}
               />

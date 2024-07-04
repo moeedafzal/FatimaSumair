@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-const VideoComp = ({ imagePath, bgColor }) => {
+const VideoComp = ({ imagePath, bgColor, alt }) => {
   // !! ENTER THE REQUIRED COLOR VARIANTS HERE FOR THE VIDEO BACKGROUND COLOR otherwise it will not work.
   const colorVariants = {
     // blue: 'bg-blue-600 hover:bg-blue-500',
@@ -18,7 +18,7 @@ const VideoComp = ({ imagePath, bgColor }) => {
           fill={true}
           objectFit="contain"
           src={imagePath}
-          alt={"Header Image"}
+          alt={alt || "Header Image"}
         />
       </div>
     </div>

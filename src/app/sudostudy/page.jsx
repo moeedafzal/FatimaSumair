@@ -1,5 +1,5 @@
 "use client";
-import React from "react";;
+import React from "react";
 import Image from "next/image";
 import { Divider } from "antd";
 import VideoComp from "../../components/global/VideoComp";
@@ -36,7 +36,11 @@ const Page = () => {
 
   return (
     <>
-      <VideoComp imagePath={"/sudostudy_header.png"} bgColor={"DDBDBD"} />
+      <VideoComp
+        imagePath={"/images/work/sudostudy/header.png"}
+        bgColor={"DDBDBD"}
+        alt="SudoStudy header image"
+      />
 
       <div className="flex flex-row justify-center">
         <div className="hidden xl:block xl:w-1/6 mt-[21.3rem]">
@@ -71,15 +75,15 @@ const Page = () => {
             />
             <div className="mt-12 flex flex-col xl:flex-row xl:justify-center items-center gap-16">
               <Image
-                src="/user-research-1 1.svg"
-                alt="Research"
+                src="/images/work/sudostudy/page_content/user_research_diagram.png"
+                alt="A diagram of user research"
                 width={500}
                 height={800}
                 className=""
               />
               <Image
-                src="/stressed.svg"
-                alt="Stressed Woman"
+                src="/images/work/sudostudy/page_content/stressed_out_teacher_animated.png"
+                alt="Animated image of a stressed teacher"
                 width={500}
                 height={300}
                 className=""
@@ -88,28 +92,37 @@ const Page = () => {
 
             <div className="flex flex-wrap xl:gap-8 xl:flex-row justify-center">
               <SingleImage
-                image1={"/sudo1.svg"}
+                image1={
+                  "/images/work/sudostudy/page_content/marker_writing_on_paper.png"
+                }
                 c1={
                   "Quiz creation and grading can be time-consuming and inefficientprocess for teachers."
                 }
                 bgcolor={"DDBDBD"}
                 index={1}
+                alt="Red maker writing on a paper"
               />
               <SingleImage
-                image1={"/sudo2.svg"}
+                image1={
+                  "/images/work/sudostudy/page_content/boy_writing_on_paper.png"
+                }
                 c1={
                   "Students learn at different paces and have different strengths and weaknesses. Traditional quizzes often do not take his into account, resulting in a less-than-optimal learning experience for students."
                 }
                 bgcolor={"DDBDBD"}
                 index={2}
+                alt="Student writing on a paper"
               />
               <SingleImage
-                image1={"/sudo3.svg"}
+                image1={
+                  "/images/work/sudostudy/page_content/stressed_out_teacher.png"
+                }
                 c1={
                   "Teachers are stressed out, they're looking into new technologies to provide personalized feedback and practice content."
                 }
                 bgcolor={"DDBDBD"}
                 index={3}
+                alt="A stressed out teacher"
               />
             </div>
 
@@ -122,7 +135,9 @@ const Page = () => {
 
             <div className="">
               <UsersContentImage
-                image1={"/User1.svg"}
+                image1={
+                  "/images/work/sudostudy/page_content/animated_student.png"
+                }
                 bullet={true}
                 t1={"Student Alina"}
                 c1={
@@ -140,11 +155,14 @@ const Page = () => {
                   "Difficulty in finding relevant practice material",
                   "Busy schedule with extracurricular activities and school work.",
                 ].join("\n")}
+                alt="Animated image of a student"
               />
             </div>
 
             <UsersContentImage
-              image1={"/User2.svg"}
+              image1={
+                "/images/work/sudostudy/page_content/animated_teacher.png"
+              }
               bullet={true}
               t1={"Teacher Ms. Aliya"}
               c1={
@@ -162,10 +180,11 @@ const Page = () => {
                 "Difficulty in tracking student progress and identifying struggling students.",
                 "Limited resources and time for creating customized quizzes for each class.",
               ].join("\n")}
+              alt="Animated image of a teacher"
             />
 
             <UsersContentImage
-              image1={"/User3.svg"}
+              image1={"/images/work/sudostudy/page_content/animated_parent.png"}
               bullet={true}
               t1={"Parent David "}
               c1={
@@ -183,6 +202,7 @@ const Page = () => {
                 "Concerns about the quality and relevance of study materials.",
                 "Difficulty in monitoring his child's academic progress due to busy work schedule.",
               ].join("\n")}
+              alt="Animated image of a father hugging his son"
             />
             <p className="font-poppins text-xl mt-8 xl:mx-12">
               I also created some design principles to guide my thinking for the
@@ -190,8 +210,10 @@ const Page = () => {
             </p>
             <div className="mt-8 lg:mx-12">
               <ImageContainer
-                src={"/DesignPrinciples.svg"}
-                alt={"Design Principles Image"}
+                src={
+                  "/images/work/sudostudy/page_content/design_principles.png"
+                }
+                alt={"Image of Design Principles for teachers"}
                 alignLeft
                 noMarginTop
               />
@@ -205,10 +227,10 @@ const Page = () => {
               />
             </div>
             <Image
-              src={"/Storyboarding1.svg"}
+              src={"/images/work/sudostudy/page_content/storyboarding_1.png"}
               width={690}
               height={400}
-              alt="Storyboarding1"
+              alt="Animated image of a diary"
             />
             <p className="font-poppins my-8 overflow-clip">
               A. Ms. Aliya is planning the lesson for tomorrow and sees that
@@ -216,10 +238,10 @@ const Page = () => {
               SudoStudy.
             </p>
             <Image
-              src={"/Storyboarding2.svg"}
+              src={"/images/work/sudostudy/page_content/storyboarding_2.png"}
               width={690}
               height={400}
-              alt="Storyboarding2"
+              alt="Teacher asking question on screen"
             />
             <p className="font-poppins my-8 overflow-clip">
               B. Ms. Aliya pulls up a question on the screen using Sudo Study.
@@ -227,10 +249,10 @@ const Page = () => {
               groups.
             </p>
             <Image
-              src={"/Storyboarding3.svg"}
+              src={"/images/work/sudostudy/page_content/storyboarding_3.png"}
               width={690}
               height={400}
-              alt="Storyboarding3"
+              alt="Teacher showing result on screen"
             />
             <p className="font-poppins my-8 overflow-clip">
               C. Ms. Aliya sees that almost half the class answered incorrectly
@@ -246,8 +268,8 @@ const Page = () => {
             </div>
 
             <ImageContainer
-              src={"/userSudoflowDiagram.svg"}
-              alt={"Flow Diagram of Sudo Study"}
+              src={"/images/work/sudostudy/page_content/user_flows.png"}
+              alt={"A diagram of user flows for SudoStudy"}
             />
 
             <TitleCont
@@ -266,7 +288,7 @@ const Page = () => {
             <div className="flex justify-center mt-8">
               <div className="relative max-w-[1200px]">
                 <Image
-                  src={"/BlackMacbook.png"}
+                  src={"/images/utils/black_macbook.png"}
                   alt={"Black MacBook with a video"}
                   width={10000}
                   height={10000}
@@ -277,15 +299,17 @@ const Page = () => {
                   autoPlay
                   style={{ maxWidth: "75%", maxHeight: "80%" }}
                 >
-                  <source src="/videos/SudoStudy.mp4" type="video/mp4" />
+                  <source src="/videos/sudostudy.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>
             </div>
 
             <ImageContainer
-              src={"/gitcodeDynamics.svg"}
-              alt={"Dynamics Picture"}
+              src={
+                "/images/work/sudostudy/page_content/final_designs/question_page.png"
+              }
+              alt={"Question page of SudoStudy"}
             />
 
             <Divider className="bg-gray-700 my-10" />
@@ -299,8 +323,10 @@ const Page = () => {
             />
 
             <ImageContainer
-              src={"/Create Quiz Topical 1.svg"}
-              alt={"Create Quiz Topical 1"}
+              src={
+                "/images/work/sudostudy/page_content/final_designs/create_quiz.png"
+              }
+              alt={"Create quiz page of SudoStudy"}
             />
 
             <Divider className="bg-gray-700 my-10" />
@@ -313,7 +339,12 @@ const Page = () => {
               subHeading
             />
 
-            <ImageContainer src={"/Group 40653.png"} alt={"bar chart"} />
+            <ImageContainer
+              src={
+                "/images/work/sudostudy/page_content/final_designs/report.png"
+              }
+              alt={"Mean time per question report"}
+            />
 
             <Divider className="bg-gray-700 my-10" />
 
@@ -325,7 +356,10 @@ const Page = () => {
               subHeading
             />
 
-            <ImageContainer src={"/Create 1.svg"} alt={"Quiz Details"} />
+            <ImageContainer
+              src={"/images/work/sudostudy/final_designs/quizzes_page.png"}
+              alt={"Quizzes details page of SudoStudy"}
+            />
 
             <TitleCont
               title={"Accessibility and Challenges"}

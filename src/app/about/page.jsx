@@ -5,14 +5,19 @@ import Image from "next/image";
 const ImageAndInterests = () => (
   <div className="lg:mt-[150px]">
     <div className="w-full min-w-[342px]">
-      <Image src="/about1.svg" alt="Fatima" width={1000} height={1000} />
+      <Image
+        src="images/header_images/about_page.svg"
+        alt="Animated image of Fatima Sumair"
+        width={1000}
+        height={1000}
+      />
     </div>
     <p className="font-poppins font-semibold text-3xl lg:text-2xl text-left lg:text-center my-12 mx-8 lg:mx-0">
       Current Interests
     </p>
     <div className="w-full min-w-[342px]">
       <Image
-        src={"/about2.svg"}
+        src="images/about_page/current_interests.svg"
         alt="Current Interests"
         width={10000}
         height={10000}
@@ -97,7 +102,7 @@ const Page = () => {
             <div className="flex flex-wrap lg:flex-nowrap justify-center lg:justify-between gap-10">
               <div className="lg:max-w-[430px]">
                 <Image
-                  src={"/assets/about/about_value_1.png"}
+                  src={"/images/about_page/always_be_learning.png"}
                   alt="Always be learning"
                   width={10000}
                   height={10000}
@@ -105,7 +110,7 @@ const Page = () => {
               </div>
               <div className="lg:max-w-[430px]">
                 <Image
-                  src={"/assets/about/about_value_2.png"}
+                  src={"/images/about_page/passion_is_everything.png"}
                   alt="Passion is everything"
                   width={10000}
                   height={10000}
@@ -113,7 +118,7 @@ const Page = () => {
               </div>
               <div className="lg:max-w-[430px]">
                 <Image
-                  src={"/assets/about/about_value_3.png"}
+                  src={"/images/about_page/embrace_your_creativity.png"}
                   alt="Embrace your creativity"
                   width={10000}
                   height={10000}

@@ -25,7 +25,7 @@ const Page = () => {
 
   return (
     <>
-      <VideoComp bgColor={"E9EE8A"} imagePath={"/engajheader.png"} />
+      <VideoComp bgColor={"E9EE8A"} imagePath={"/images/work/engajify/header.png"} alt="Engajify header image" />
       <div className="flex flex-row justify-center">
         <div className="hidden xl:block xl:w-1/6 mt-[21.3rem]">
           <SideNavbar titles={titles} />
@@ -52,28 +52,31 @@ const Page = () => {
             />
             <div className="flex flex-wrap xl:gap-8 xl:flex-row ">
               <SingleImage
-                image1={"/engaj1.svg"}
+                image1={"/images/work/engajify/page_content/bakery_items.png"}
                 c1={
                   "Encouraging users to create content can be challenging, requiring incentives like contests or discounts."
                 }
                 bgcolor={"E9EE8A"}
                 index={1}
+                alt="Phone capturing photo of bakery items"
               />
               <SingleImage
-                image1={"/engaj2.svg"}
+                image1={"/images/work/engajify/page_content/filter_illustration.png"}
                 c1={
                   "UGC needs careful moderation to filter out negativity and spam. Not all UGC is high quality or on-brand, necessitating curation"
                 }
                 bgcolor={"E9EE8A"}
                 index={2}
+                alt="Illustration of a filter"
               />
               <SingleImage
-                image1={"/engaj3.svg"}
+                image1={"/images/work/engajify/page_content/man_lifting_rock.png"}
                 c1={
                   "Handling the growing volume of UGC can be overwhelming for businesses"
                 }
                 bgcolor={"E9EE8A"}
                 index={3}
+                alt="Illustration of a man lifting a heavy rock"
               />
             </div>
             <div className="">
@@ -85,7 +88,7 @@ const Page = () => {
               />
             </div>
             <UsersContentImage
-              image1={"/engajusr1.svg"}
+              image1={"/images/work/engajify/page_content/pastry_chef.png"}
               bullet={false}
               t1={"Small Business Owner Victoria"}
               c1={
@@ -99,10 +102,11 @@ const Page = () => {
               c3={[
                 "Limited budget and resources make it challenging for Victoria to create professional-looking marketing materials. She needs a simple solution to collect and display user-generated content on her website and social media platforms.",
               ].join("\n")}
+              alt={"Pastry chef in a bakery"}
             />
 
             <UsersContentImage
-              image1={"/engajusr2.svg"}
+              image1={"/images/work/engajify/page_content/marketing_manager.png"}
               bullet={false}
               t1={"Marketing Manager Melanie"}
               c1={
@@ -116,10 +120,11 @@ const Page = () => {
               c3={[
                 "She struggles to find authentic user-generated content that aligns with the brand's image. Additionally, managing and curating user-generated content across multiple channels is time-consuming.",
               ].join("\n")}
+              alt={"A marketing manager"}
             />
 
             <UsersContentImage
-              image1={"/engajusr3.svg"}
+              image1={"/images/work/engajify/page_content/social_media_manager.png"}
               bullet={false}
               t1={"Social Media Manager Sarah"}
               c1={
@@ -133,6 +138,7 @@ const Page = () => {
               c3={[
                 "Sarah finds it difficult to consistently source high-quality user-generated content that fits the brand's aesthetic. She needs tools to streamline the process of discovering, and obtaining rights to content.",
               ].join("\n")}
+              alt={"A social media manager working"}
             />
 
             <TitleCont
@@ -144,10 +150,10 @@ const Page = () => {
             />
 
             <Image
-              src={"/engajfish.svg"}
+              src={"/images/work/engajify/page_content/fish_bone_diagram.svg"}
               width={1400}
               height={500}
-              alt="Design Principles Image"
+              alt="Ishikawa (fish bone) analysis diagram"
             />
             <div className="text-center">
               <h2 className="font-poppins text-2xl md:text-4xl font-bold my-16 bg-[#E9EE8A] p-8 max-w-[1400px]">
@@ -193,41 +199,41 @@ const Page = () => {
             />
             <div className="image-mesh grid grid-cols-1 md:grid-cols-2 gap-4 my-24 max-w-[1400px] mx-auto">
               <Image
-                src="/engajproc1.svg"
+                src="/images/work/engajify/page_content/process_collage_1.png"
                 width={500}
                 height={500}
-                alt="process"
+                alt="Sticky notes on a whiteboard"
                 className="my-4 md:my-16"
               />
               <Image
-                src="/engajproc2.svg"
+                src="/images/work/engajify/page_content/process_collage_2.png"
                 width={650}
                 height={500}
-                alt="process"
+                alt="People sticking notes on a whiteboard"
                 className="-mx-0 md:-mx-28 my-4 md:my-16"
               />
               <Image
-                src="/engajproc3.svg"
+                src="/images/work/engajify/page_content/process_collage_3.png"
                 width={600}
                 height={500}
-                alt="process"
+                alt="Wireframes for a Campaign Page"
                 className="my-4"
               />
               <Image
-                src="/engajproc4.svg"
+                src="/images/work/engajify/page_content/process_collage_4.png"
                 width={500}
                 height={500}
-                alt="process"
+                alt="People discussing sticky notes on a table"
                 className="my-4"
               />
             </div>
 
             <TitleCont id="User flows" title={"User flows"} content={""} />
             <Image
-              src={"/engajusrflow.svg"}
+              src={"/images/work/engajify/page_content/user_flows.png"}
               width={1200}
               height={1000}
-              alt="Design Principles Image"
+              alt="Diagrams of User flows for Engajify"
             />
             <div className="mt-20 mb-12">
               <TitleCont
@@ -238,10 +244,10 @@ const Page = () => {
                 title={
                   "Customizable no-code landing page for creators to post content"
                 }
-                image1={"/engajdes1.svg"}
+                image1={"/images/work/engajify/page_content/final_designs/page_builder.png"}
                 w={"1000"}
                 h={"1000"}
-                alttext={"barbie"}
+                alttext={"Screenshot of a non code platform for building campaigns"}
                 hr={true}
                 content={
                   "One of the features was a customizable landing page where the audience can get information about the rewards and can post their UGCs. I used the example of the Barbie movie to demonstrate how a page can look like once it's been customized. The panel on the side gives ample customization options; the user can customize the landing page section by section, adding their own images, text and background colors. For those who don’t want to spend too much time customizing, there’s the global settings option. The top navigation bar has two buttons: preview and publish. This allows users to preview or publish their landing page."
@@ -249,10 +255,10 @@ const Page = () => {
               />
               <TitleImage
                 title={"Campaign page"}
-                image1={"/engajdes2.svg"}
+                image1={"/images/work/engajify/page_content/final_designs/campaign_page.png"}
                 w={"1000"}
                 h={"1000"}
-                alttext={"campaigns"}
+                alttext={"Screenshot of a campaign page"}
                 hr={true}
                 content={
                   "The Campaigns Page is for exploring and managing all ongoing, upcoming, and past campaigns for UGC."
@@ -260,10 +266,10 @@ const Page = () => {
               />
               <TitleImage
                 title={"The Form"}
-                image1={"/engajdes3.svg"}
+                image1={"/images/work/engajify/page_content/final_designs/campaign_details_form.png"}
                 w={"1000"}
                 h={"1000"}
-                alttext={"form"}
+                alttext={"Screenshot of the form for campaign details"}
                 hr={true}
                 content={
                   "When first creating a campaign, users are directed to a form. Long forms are a drag for the user, luckily is possible to achieve simplicity without removing content from your form. By breaking down complex tasks and grouping related information together, I was able to create a more user-friendly experience."
@@ -271,10 +277,10 @@ const Page = () => {
               />
               <TitleImage
                 title={"Campaigns Page for First Time Users"}
-                image1={"/engajdes4.svg"}
+                image1={"/images/work/engajify/page_content/final_designs/first_time_page.png"}
                 w={"1000"}
                 h={"1000"}
-                alttext={"campaign page"}
+                alttext={"Screenshot of campaign page for first time users"}
                 hr={true}
                 content={
                   "It can be confusing to know the user journey for first time users. We added a cute icons explaining the journey to simplify the process for them. "
@@ -282,10 +288,10 @@ const Page = () => {
               />
               <TitleImage
                 title={"Submissions"}
-                image1={"/engajdes5.svg"}
+                image1={"/images/work/engajify/page_content/final_designs/submissions_before.png"}
                 w={"1000"}
                 h={"1000"}
-                alttext={"submissions"}
+                alttext={"Screenshot of submissions page before design revamp"}
                 hr={false}
                 content={
                   "Users can view submissions and accept or reject them."
@@ -293,27 +299,27 @@ const Page = () => {
               />
               <TitleImage
                 title={""}
-                image1={"/engajdes6.svg"}
+                image1={"/images/work/engajify/page_content/final_designs/submissions_after.png"}
                 w={"1000"}
                 h={"1000"}
-                alttext={"submissions"}
+                alttext={"Screenshot of submissions page after design revamp"}
                 hr={true}
               />
               <TitleImage
                 title={"Giving Rewards"}
-                image1={"/engajdes7.svg"}
+                image1={"/images/work/engajify/page_content/final_designs/rewards.png"}
                 w={"1000"}
                 h={"1000"}
-                alttext={"Rewards"}
+                alttext={"Screenshot of the rewards page"}
                 hr={true}
                 content={"Users can give rewards after accepting a submission"}
               />
               <TitleImage
                 title={"Landing Page for Engajify"}
-                image1={"/engajdes8.svg"}
+                image1={"/images/work/engajify/page_content/final_designs/landing_page.png"}
                 w={"1000"}
                 h={"1000"}
-                alttext={"Rewards"}
+                alttext={"Screenshot of the landing page of Engajify"}
                 hr={true}
                 content={
                   "We wanted Engajify’s landing page to be colorful; to voice Engajify's fun ethos of unleashing the power of community-created content. I used light pastels to emphasize the playful nature of the web app. I broke the page down into several sections that showcased what the app was about."
@@ -321,10 +327,10 @@ const Page = () => {
               />
               <TitleImage
                 title={"Lucid Design System"}
-                image1={"/engajdes9.svg"}
+                image1={"/images/work/engajify/page_content/final_designs/design_system.png"}
                 w={"1000"}
                 h={"1000"}
-                alttext={"design"}
+                alttext={"Design system for Engajify"}
                 hr={true}
                 content={
                   "Lucid is a scalable design system that saves time, reduces technical debt over time. It solves the problem of inconsistent components and user experience. Everything in the website is made up of these modular components—this gives a unified, consistent, robust UI.\nThe design system is never final. It evolves as we go along."

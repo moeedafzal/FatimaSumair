@@ -49,7 +49,7 @@ const Page = () => {
   ];
   return (
     <>
-      <VideoComp bgColor={"ECE2D7"} imagePath={"/unation_header.png"} />
+      <VideoComp bgColor={"ECE2D7"} imagePath={"/images/work/unation/header.png"} alt="Unation header image" />
 
       <div className="flex flex-row justify-center">
         <div className="hidden xl:block xl:w-1/6 mt-[21.3rem]">
@@ -85,9 +85,9 @@ const Page = () => {
             />
 
             <ThreeImageHorizontal
-              image1={"/unation1.svg"}
-              image2={"/unation2.png"}
-              image3={"/unation3.svg"}
+              image1={"/images/work/unation/page_content/man_on_laptop.png"}
+              image2={"/images/work/unation/page_content/digital_diagram.png"}
+              image3={"/images/work/unation/page_content/carnival_painting.png"}
               t1={"Complexity in Event Creation"}
               c1={
                 "Users found it challenging to navigate through a complex interface or a lengthy process to create an event. This can lead to frustration and may deter users from using the platform."
@@ -101,6 +101,9 @@ const Page = () => {
                 "Users  faced challenges in ensuring their events are easily discoverable by potential attendees. The platform lacks robust search functionality, categorization, or recommendation features, users find it difficult to attract attendees beyond their existing network."
               }
               bgcolor={"ECE2D7"}
+              alt1="Man working on a laptop"
+              alt2="Digital diagram"
+              alt3="Painting of a carnival"
             />
 
             <div className="">
@@ -113,7 +116,7 @@ const Page = () => {
             </div>
 
             <UsersContentImage
-              image1={"/unationuser1.png"}
+              image1={"/images/work/unation/page_content/socialite.png"}
               bullet={false}
               t1={"Sarah the Socialite"}
               c1={
@@ -127,10 +130,11 @@ const Page = () => {
               c3={
                 "Sarah may face challenges in managing her busy schedule and coordinating with sponsors, vendors, and attendees. She needs a platform that simplifies event logistics and offers efficient communication tools to keep everyone informed and engaged."
               }
+              alt="Animated image of a socialite"
             />
 
             <UsersContentImage
-              image1={"/unationuser2.png"}
+              image1={"/images/work/unation/page_content/marketer.png"}
               bullet={false}
               t1={"Emily the Marketer"}
               c1={
@@ -144,10 +148,11 @@ const Page = () => {
               c3={
                 "Emily may encounter challenges in targeting specific audience segments, optimizing event promotion strategies, and measuring the effectiveness of marketing campaigns. Shee requires a platform that offers advanced targeting capabilities, A/B testing for promotional materials, and real-time insights into attendee behavior"
               }
+              alt="Animated image of a marketer"
             />
 
             <UsersContentImage
-              image1={"/unationuser3.png"}
+              image1={"/images/work/unation/page_content/entrepreneur.png"}
               bullet={false}
               t1={"Mark the Entrepreneur"}
               c1={
@@ -161,6 +166,7 @@ const Page = () => {
               c3={
                 "Mark may face challenges in allocating his limited budget effectively, reaching his target audience, and managing event logistics efficiently. He seeks a platform that provides cost-effective solutions, built-in promotional tools, and seamless integration with other business software (e.g., CRM, email marketing) to streamline operations and maximize ROI."
               }
+              alt="Animated image of a entrepreneur"
             />
 
             <TitleCont
@@ -173,10 +179,10 @@ const Page = () => {
 
             <div className="flex justify-center my-8">
               <Image
-                src={"/unationCircle.png"}
+                src={"/images/work/unation/page_content/stratagyzer_value_proposition_canvas.png"}
                 width={720}
                 height={300}
-                alt="Design Principles Image"
+                alt="Stratagyzer’s Value Proposition Canvas"
               />
             </div>
 
@@ -184,10 +190,10 @@ const Page = () => {
 
             <div className="flex justify-center my-8">
               <Image
-                src={"/unationJourney.svg"}
+                src={"/images/work/unation/page_content/user_journey_map.png"}
                 width={1130}
                 height={435}
-                alt="User Journey Map"
+                alt="User journey map for Unation"
               />
             </div>
             <div className="mt-8">
@@ -201,26 +207,26 @@ const Page = () => {
 
             <TitleWithImage
               title={"Home Page"}
-              src={"/unationHome.svg"}
-              alt={"Home Page"}
+              src={"/images/work/unation/page_content/final_designs/home_page.png"}
+              alt={"Home page screen of Unation app"}
             />
 
             <TitleWithImage
               title={"City Guides"}
-              src={"/unationCity.svg"}
-              alt={"City Guides"}
+              src={"/images/work/unation/page_content/final_designs/city_guides.png"}
+              alt={"City guides screen of Unation app"}
             />
 
             <TitleWithImage
               title={"Discover Screen"}
-              src={"/unationDiscover.svg"}
-              alt={"Discover Screen"}
+              src={"/images/work/unation/page_content/final_designs/discover_screen.png"}
+              alt={"Discover screen of Unation app"}
             />
 
             <TitleWithImage
               title={"Event Creation"}
-              src={"/unationEvent.svg"}
-              alt={"Event Creation"}
+              src={"/images/work/unation/page_content/final_designs/create_event.png"}
+              alt={"Create event screen of Unation app"}
             />
 
             <TitleCont

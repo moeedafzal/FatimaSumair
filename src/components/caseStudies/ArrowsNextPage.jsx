@@ -7,16 +7,16 @@ const ArrowsNextPage = ({ backPage, frontPage }) => {
     <div className="flex justify-between py-16 px-5">
       <Link href={backPage}>
         <Image
-          src="/assets/testimonials/carouselBackButton.svg"
-          alt="marks"
+          src="/images/carousel_buttons/back.svg"
+          alt="Back button"
           width={60}
           height={60}
         />
       </Link>
       <Link href={frontPage}>
         <Image
-          src="/assets/testimonials/carouselForwardButton.svg"
-          alt="marks"
+          src="/images/carousel_buttons/forward.svg"
+          alt="Forward button"
           width={60}
           height={60}
         />

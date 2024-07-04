@@ -32,8 +32,8 @@ export default function ProjectsCarousel() {
       <div className="relative">
         <Image
           className="ml-5 absolute left-0 top-1/2 transform -translate-y-1/2 z-10 cursor-pointer hidden lg:block"
-          src="/assets/testimonials/carouselBackButton.svg"
-          alt="marks"
+          src="/images/carousel_buttons/back.svg"
+          alt="Back button"
           width={60}
           height={60}
           onClick={handlePrev}
@@ -50,8 +50,8 @@ export default function ProjectsCarousel() {
         >
           <div className="flex items-center justify-center h-full">
             <Image
-              src="/assets/otherprojects/img1.svg"
-              alt="Image 1 Alt Text"
+              src="/images/other_projects/workout.png"
+              alt="Screens of a workout app"
               width={800}
               height={800}
               className="mx-auto"
@@ -59,8 +59,8 @@ export default function ProjectsCarousel() {
           </div>
           <div className="flex items-center justify-center h-full">
             <Image
-              src="/assets/otherprojects/img2.svg"
-              alt="Image 2 Alt Text"
+              src="/images/other_projects/multiple_apps.png"
+              alt="Screens of multiple apps"
               width={800}
               height={800}
               className="mx-auto"
@@ -68,8 +68,8 @@ export default function ProjectsCarousel() {
           </div>
           <div className="flex items-center justify-center h-full">
             <Image
-              src="/assets/otherprojects/img3.svg"
-              alt="Image 3 Alt Text"
+              src="/images/other_projects/innovate_x.png"
+              alt="Screens of InnovateX"
               width={800}
               height={800}
               className="mx-auto"
@@ -78,8 +78,8 @@ export default function ProjectsCarousel() {
         </Carousel>
         <Image
           className="absolute mr-5 right-0 top-1/2 transform -translate-y-1/2 z-10 cursor-pointer hidden lg:block"
-          src="/assets/testimonials/carouselForwardButton.svg"
-          alt="marks"
+          src="/images/carousel_buttons/forward.svg"
+          alt="Forward button"
           width={60}
           height={60}
           onClick={handleNext}

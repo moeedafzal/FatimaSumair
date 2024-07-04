@@ -22,6 +22,9 @@ const ThreeImageHorizontal = ({
   c2,
   c3,
   bgcolor,
+  alt1,
+  alt2,
+  alt3,
 }) => {
   return (
     <div className="ml-6 flex flex-col flex-wrap md:flex-row justify-items-start md:justify-center mt-32 gap-[70px]">
@@ -31,7 +34,7 @@ const ThreeImageHorizontal = ({
         >
           1
         </div>
-        <Image src={image1} width={300} height={800} alt={"Image1"} />
+        <Image src={image1} width={300} height={800} alt={alt1 || "Image1"} />
         <p className="overflow-clip break-words w-[300px] mt-4 font-poppins font-bold">
           {t1}
         </p>
@@ -45,7 +48,7 @@ const ThreeImageHorizontal = ({
         >
           2
         </div>
-        <Image src={image2} width={300} height={300} alt={"Image2"} />
+        <Image src={image2} width={300} height={300} alt={alt2 || "Image2"} />
         <p className="overflow-clip break-words w-[300px] mt-4 font-poppins font-bold">
           {t2}
         </p>
@@ -59,7 +62,7 @@ const ThreeImageHorizontal = ({
         >
           3
         </div>
-        <Image src={image3} width={300} height={300} alt={"Image3"} />
+        <Image src={image3} width={300} height={300} alt={alt3 || "Image3"} />
         <p className="overflow-clip break-words w-[300px] mt-4 font-poppins font-bold">
           {t3}
         </p>
