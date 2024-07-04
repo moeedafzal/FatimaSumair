@@ -78,12 +78,20 @@ const Navbar = () => {
         <div className="nav-mob back-cream rounded-lg w-[80%] m-auto py-6 px-3 absolute top-20 z-10 left-[50%] transform -translate-x-1/2 shadow-xl shadow-slate-700">
           <ul className={`links flex flex-col gap-x-4 lg:gap-x-12 text-lg m-0`}>
             <li className="link">
-              <Link href="/work" className="block md:inline-block px-4 py-2">
+              <Link
+                href="/work"
+                className="block md:inline-block px-4 py-2"
+                onClick={toggleDiv}
+              >
                 Work
               </Link>
             </li>
             <li className="link">
-              <Link href="/about" className="block md:inline-block px-4 py-2">
+              <Link
+                href="/about"
+                className="block md:inline-block px-4 py-2"
+                onClick={toggleDiv}
+              >
                 About
               </Link>
             </li>
@@ -91,6 +99,7 @@ const Navbar = () => {
               <Link
                 href="/testimonials"
                 className="block md:inline-block px-4 py-2"
+                onClick={toggleDiv}
               >
                 Testimonials
               </Link>
@@ -100,6 +109,7 @@ const Navbar = () => {
                 <Link
                   target="_blank"
                   href="https://www.linkedin.com/in/fatima-sumair-479b35150/"
+                  onClick={toggleDiv}
                 >
                   <Image
                     className="w-10 cursor-pointer"
@@ -114,6 +124,7 @@ const Navbar = () => {
                 <Link
                   target="_blank"
                   href="https://www.behance.net/fatimasumair"
+                  onClick={toggleDiv}
                 >
                   <Image
                     className="w-10 cursor-pointer"
@@ -125,7 +136,11 @@ const Navbar = () => {
                 </Link>
               </div>
               <div>
-                <Link target="_blank" href="https://medium.com/@fatimasumair">
+                <Link
+                  target="_blank"
+                  href="https://medium.com/@fatimasumair"
+                  onClick={toggleDiv}
+                >
                   <Image
                     className="w-10 cursor-pointer"
                     src="/images/utils/medium_logo.svg"

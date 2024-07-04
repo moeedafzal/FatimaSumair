@@ -14,7 +14,7 @@ const Page = () => {
   return (
     <section>
       <div className="bg-[#212121]">
-        <div className="container text-left mx-auto px-7 pt-20 lg:px-12 lg:pt-32 flex flex-col lg:flex-row items-center">
+        <div className="container text-left mx-auto px-7 pt-16 lg:px-12 flex flex-col lg:flex-row items-center">
           <div className="bg-[#212121] relative mx-auto max-w-max w-full lg:w-1/2 lg:px-4 order-last lg:order-first">
             <Image
               width={1000}
