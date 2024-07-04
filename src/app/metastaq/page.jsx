@@ -52,7 +52,7 @@ const Page = () => {
               height="10000"
               controls
             >
-              <source src="/videos/metastaq.mp4" type="video/mp4" />
+              <source src="/videos/Metastaq.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
 

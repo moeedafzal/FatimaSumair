@@ -299,7 +299,7 @@ const Page = () => {
                   autoPlay
                   style={{ maxWidth: "75%", maxHeight: "80%" }}
                 >
-                  <source src="/videos/sudostudy.mp4" type="video/mp4" />
+                  <source src="/videos/SudoStudy.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>
