@@ -15,8 +15,8 @@ export default function HomepageFooter() {
             >
               <Image
                 className="w-10 cursor-pointer"
-                src="/assets/home/linkedin_logo.png"
-                alt="linkedin"
+                src="/images/utils/linkedin_logo.svg"
+                alt="Linkedin logo"
                 width={100}
                 height={100}
               />
@@ -26,8 +26,8 @@ export default function HomepageFooter() {
             <Link target="_blank" href="https://www.behance.net/fatimasumair">
               <Image
                 className="w-10 cursor-pointer"
-                src="/assets/home/logo2.png"
-                alt="logo2"
+                src="/images/utils/behance_logo.svg"
+                alt="Behance logo"
                 width={100}
                 height={100}
               />
@@ -37,8 +37,8 @@ export default function HomepageFooter() {
             <Link target="_blank" href="https://medium.com/@fatimasumair">
               <Image
                 className="w-10 cursor-pointer"
-                src="/assets/home/logo3.png"
-                alt="logo3"
+                src="/images/utils/medium_logo.svg"
+                alt="Medium logo"
                 width={100}
                 height={100}
               />

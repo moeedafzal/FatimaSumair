@@ -7,8 +7,8 @@ import Image from "next/image";
 const ForwardArrow = () => (
   <Image
     className="cursor-pointer inline"
-    src="/forwardArrow.svg"
-    alt="forwardArrow"
+    src="/images/utils/forward_arrow.svg"
+    alt="Forward arrow"
     width={20}
     height={20}
   />

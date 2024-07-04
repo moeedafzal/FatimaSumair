@@ -11,7 +11,7 @@ const colorVariants = {
 // t1 t2 t3 = title1...;
 // c1 c2 c3 = content1...;
 // ! I HAVE NOT USED t1 t2, change up the code if you want to use them but make sure sudostudy page is functional
-const SingleImage = ({ image1, t1, c1, bgcolor, index }) => {
+const SingleImage = ({ image1, t1, c1, bgcolor, index, alt }) => {
   return (
     <div className="ml-6 flex flex-col md:flex-row justify-items-start md:justify-center mt-32">
       <div className="relative">
@@ -20,7 +20,7 @@ const SingleImage = ({ image1, t1, c1, bgcolor, index }) => {
         >
           {index}
         </div>
-        <Image src={image1} width={300} height={800} alt={"Image1"} />
+        <Image src={image1} width={300} height={800} alt={alt || "Image1"} />
         <p className="overflow-clip break-words w-[300px] mt-4 font-poppins font-bold">
           {t1}
         </p>

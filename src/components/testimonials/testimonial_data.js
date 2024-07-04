@@ -2,7 +2,7 @@
 const testimonials = [
   {
     author: {
-      image: "/assets/testimonials/img1.svg",
+      image: "/images/testimonials/arslan_arshad.png",
       name: "Arslan Arshad",
       designation1: "Founder / CEO @ Sudo Study",
       designation2: "Site Reliability Engineer @ Google",
@@ -11,7 +11,7 @@ const testimonials = [
   },
   {
     author: {
-      image: "/assets/testimonials/img2.svg",
+      image: "/images/testimonials/moeed_afzal.png",
       name: "Moeed Afzal",
       designation1: "Founding Software Engineer @ Sudo Study",
       designation2: "Software Engineer @ EventMobi",
@@ -20,7 +20,7 @@ const testimonials = [
   },
   {
     author: {
-      image: "/assets/testimonials/img3.svg",
+      image: "/images/testimonials/chad_willard.png",
       name: "Chad Willard",
       designation1: "Founder @ Straddle",
       designation2: "",
@@ -29,7 +29,7 @@ const testimonials = [
   },
   {
     author: {
-      image: "/assets/testimonials/img4.svg",
+      image: "/images/testimonials/momina_rehman.png",
       name: "Momina Rehman",
       designation1: "Freelance UI/UX Designer",
       designation2: "",

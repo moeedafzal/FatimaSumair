@@ -16,8 +16,8 @@ const Navbar = () => {
         <Link href="/">
           <div className="logo flex items-center gap-x-2 font-playfair">
             <Image
-              src="/logo.svg"
-              alt="Logo"
+              src="/images/utils/logo.svg"
+              alt="Fatima Sumair logo"
               width="50"
               height="50"
               className="bg-transparent border-none border-white"
@@ -27,7 +27,7 @@ const Navbar = () => {
         </Link>
 
         <ul
-          className={`links hidden md:flex md:flex-row gap-x-4 lg:gap-x-12 text-lg items-center m-0`}
+          className={`links hidden md:flex md:flex-row gap-x-2 lg:gap-x-12 text-lg items-center m-0`}
         >
           <li className="link">
             <Link href="/work" className="block md:inline-block px-4 py-2">
@@ -103,8 +103,8 @@ const Navbar = () => {
                 >
                   <Image
                     className="w-10 cursor-pointer"
-                    src="/assets/home/linkedin_logo.png"
-                    alt="linkedin"
+                    src="/images/utils/linkedin_logo.svg"
+                    alt="Linkedin logo"
                     width={100}
                     height={100}
                   />
@@ -117,8 +117,8 @@ const Navbar = () => {
                 >
                   <Image
                     className="w-10 cursor-pointer"
-                    src="/assets/home/logo2.png"
-                    alt="logo2"
+                    src="/images/utils/behance_logo.svg"
+                    alt="Behance logo"
                     width={100}
                     height={100}
                   />
@@ -128,8 +128,8 @@ const Navbar = () => {
                 <Link target="_blank" href="https://medium.com/@fatimasumair">
                   <Image
                     className="w-10 cursor-pointer"
-                    src="/assets/home/logo3.png"
-                    alt="logo3"
+                    src="/images/utils/medium_logo.svg"
+                    alt="Medium logo"
                     width={100}
                     height={100}
                   />
