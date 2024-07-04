@@ -294,7 +294,7 @@ const Page = () => {
                   height={10000}
                 />
                 <video
-                  className=" absolute top-5 left-[50%] transform -translate-x-1/2 w-full h-full"
+                  className="absolute top-2 sm:top-3 lg:top-4 left-[50%] transform -translate-x-1/2 w-full h-full"
                   controls
                   autoPlay
                   playsInline
@@ -358,7 +358,9 @@ const Page = () => {
             />
 
             <ImageContainer
-              src={"/images/work/sudostudy/page_content/final_designs/quizzes_page.png"}
+              src={
+                "/images/work/sudostudy/page_content/final_designs/quizzes_page.png"
+              }
               alt={"Quizzes details page of SudoStudy"}
             />
 
